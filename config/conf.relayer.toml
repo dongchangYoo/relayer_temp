@@ -1,0 +1,20 @@
+title = "Relayer Configuration"
+
+[entity]
+role = "relayer"
+index = 0
+
+[account]
+secret_key = "0x1010101010101010101010101010101010101010101010101010101010101010"
+
+[chains.bifrost]
+chain_name = "BIFROST"
+config_path = "config/conf.bifrost.toml"
+
+[chains.ethereum]
+chain_name = "ETHEREUM"
+config_path = "config/conf.ethereum.toml"
+
+[chains.klaytn]
+chain_name = "KLAYTN"
+config_path = "config/conf.klaytn.toml"

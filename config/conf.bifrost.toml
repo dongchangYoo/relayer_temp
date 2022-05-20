@@ -1,0 +1,59 @@
+title = "bifrost configuration"
+
+[rpc]
+url_with_access_key = "https://v.thebifrost.io/bfc/test/rpc"
+
+[fee]
+type = 0
+gas_price = 1000000000
+
+[contracts.socket]
+name = "socket"
+address = "0xE515D20c0221f3493286C17D38Cbfde4B02879aa"
+abi_path = "config/socket_bifrost.json"
+
+[contracts.lending]
+name = "lending"
+address = "0xC38cFf3a4795881d6fCf25c4f9B7B0341a6b331d"
+abi_path = "config/lending_bifrost.json"
+
+[contracts.wbfc]
+name = "wbfc"
+address = "0x5E18012B4bBe7CB614a4137FCFfaD0D14CC467Ec"
+abi_path = "config/token.json"
+
+[contracts.biweth]
+name = "biweth"
+address = "0x595F9A3a7f0a58d00e849fa3Be404c5797fEd9BC"
+abi_path = "config/token.json"
+
+[contracts.bilink]
+name = "bilink"
+address = "0x2d6e198b122921cF1EFa276bee0E2F08FeAfc01C"
+abi_path = "config/token.json"
+
+[contracts.bidai]
+name = "bidai"
+address = "0xeC75Cf97749eBCB0fFc1F0c4D693a2975905cA74"
+abi_path = "config/token.json"
+
+[contracts.biusdc]
+name = "biusdc"
+address = "0x1B07b35C01e6fD700dB627af98bb9eFEa1D6bB4C"
+abi_path = "config/token.json"
+
+[contracts.biusdt]
+name = "biusdt"
+address = "0xcb803c1860018AF31A8F1de78b41b046Fa73d1fA"
+abi_path = "config/token.json"
+
+[contracts.biwklay]
+name = "biwklay"
+address = "0x52B02daE6f415C98c1A60041050903700F8360A2"
+abi_path = "config/token.json"
+
+[events.socket]
+contract_name = "socket"
+event_name = "Socket"
+#latest_height = 923000
+latest_height = 941000

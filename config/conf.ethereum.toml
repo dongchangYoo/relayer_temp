@@ -1,0 +1,43 @@
+title = "ethereum configuration"
+
+[rpc]
+url_with_access_key = "https://eth:zPwB83U3@v.thebifrost.io/private/bfc/eth/rpc"
+
+[fee]
+type = 0
+gas_price = 1000000000
+
+[contracts.socket]
+name = "socket"
+address = "0x43056Dc72091030F13A3dE95cc0d1128e3Ae361E"
+abi_path = "config/socket_native.json"
+
+[contracts.weth]
+name = "weth"
+address = "0x8030Ba35bb777EF138c0A9B24eE48de8A3f21D97"
+abi_path = "config/token.json"
+
+[contracts.link]
+name = "link"
+address = "0xF89182Ab6A8c2e18EA34250f552186e286B1D514"
+abi_path = "config/token.json"
+
+[contracts.dai]
+name = "dai"
+address = "0x93F96a5fEe5D203D1505309b58d59a791Be720dD"
+abi_path = "config/token.json"
+
+[contracts.usdc]
+name = "usdc"
+address = "0x3D47542f2c773F5B7167787aB7Ad6CCd5205708C"
+abi_path = "config/token.json"
+
+[contracts.usdt]
+name = "usdt"
+address = "0x40E5470e95676366104C5d328e6477600b58CeB0"
+abi_path = "config/token.json"
+
+[events.socket]
+contract_name = "socket"
+event_name = "Socket"
+latest_height = 0

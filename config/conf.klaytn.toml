@@ -1,0 +1,23 @@
+title = "klaytn configuration"
+
+[rpc]
+url_with_access_key = "https://klaytn:C2GQtDuj@v.thebifrost.io/private/bfc/klay/rpc"
+
+[fee]
+type = 0
+gas_price = 1000000000
+
+[contracts.socket]
+name = "socket"
+address = "0xBF8452D4d73a3Ad7873a76806D90566a77Ef17B4"
+abi_path = "config/socket_native.json"
+
+[contracts.wklay]
+name = "wklay"
+address = "0x6CD9B80f50e5A72D44B41cA6f823d87748a7259E"
+abi_path = "config/token.json"
+
+[events.socket]
+contract_name = "socket"
+event_name = "Socket"
+latest_height = 890000
